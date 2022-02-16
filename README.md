@@ -7,7 +7,7 @@ of in Gitpod (gitpod is zonder mailen van orders en zonder permanent hosten):
 [Run on Gitpod](https://gitpod.io/#https://github.com/emmauscollege/5HV-webshop-template)
 
 ### In mijn webshop vind je: 
-- *Poster*
+- *Posters*
 ### Deze webshop is gemaakt door: 
 - *Renkse Hartman* 
 -  *Aron Euser*
@@ -25,7 +25,7 @@ Stap 2: Database opzetten
 - [ ] Maak tabellen en velden (CREATE TABLE commando) in je database waarin alle informatie kan worden opgeslagen die je over je producten wilt tonen.<br>
 Tip: je kunt een multipliciteitendiagram gebruiken als tussenstap voor je database-ontwerp
 - [ ] Vul de tabellen met informatie (INSERT commando)
-- [ ] Voeg eventueel plaatjes toe (web/images map)
+- [x] Voeg eventueel plaatjes toe (web/images map)
 
 Stap 3: API aanpassen 
 - [ ] Pas de API aan, zodat je alle informatie uit je database kunt opvragen via de API
