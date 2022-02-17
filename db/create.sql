@@ -35,7 +35,7 @@ insert into products (name, description, code, grootte,  materiaal, price) value
 
 insert into products (name, description, code, grootte,  materiaal, price) values ('Poster Zonsondergang', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', '686928463-6','  8,3 x 11,7', '  Mat Photo Papier', 5);
 
-insert into products (name, description, code, grootte,  materiaal, price) values ('Poster mMarkthal Rotterdam', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.', '492662523-7','  16,5 x 23,4', '  Textiel', 6.50);
+insert into products (name, description, code, grootte,  materiaal, price) values ('Poster Markthal Rotterdam', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.', '492662523-7','  16,5 x 23,4', '  Textiel', 6.50);
 
 insert into products (name, description, code, grootte,  materiaal, price) values ('Poster Italie', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.', '492662523-7','  11,7 x 16,5', '  Glanzend Papier', 5.25);
 
