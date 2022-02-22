@@ -21,6 +21,12 @@ CREATE TABLE soort (
  name VARCHAR(255),
   
 );
+
+CREATE TABLE iets (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+ iets TEXT,
+
+);
 --
 -- populate with data
 --
