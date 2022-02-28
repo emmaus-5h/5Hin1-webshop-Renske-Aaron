@@ -62,7 +62,7 @@ insert into products (name, description, code, grootte,  materiaal, price, soort
 
 insert into products (name, description, code, grootte,  materiaal, price, soort_id, doelgroep_id) values ('Poster Graffiti', 'Een poster van graffiti op een muur in Dusseldorf.', '492662523-7','  11,7 x 16,5', '  Glanzend Papier', 5.25, 1, 3);
 
-insert into products (name, description, code, grootte,  materiaal, price, soort_id, doelgroep_id) values ('Poster De Verwoeste Stad', 'Een poster van een belangrijk beeld van Rotterdam, zadkine.', '492662523-7','  11,7 x 16,5', '  Textiel', 5.75, 2, 1);
+insert into products (name, description, code, grootte,  materiaal, price, soort_id, doelgroep_id) values ('Poster De Verwoeste Stad', 'Een poster van een belangrijk beeld van Rotterdam, zadkine.', '492662523-7','  11,7 x 16,5', '  Textiel',5.75,2,1 );
 
 
 
