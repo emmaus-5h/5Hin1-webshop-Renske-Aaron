@@ -53,9 +53,9 @@ insert into products (name, description, code, grootte,  materiaal, price, soort
 
 insert into products (name, description, code, grootte,  materiaal, price, soort_id) values ('Poster Feyenoord', 'Een poster van de Kuip, perfect voor Feyenoord-fans.', '492662523-7','  8,3 x 11,7', '  Mat Photo Papier', 4.75, 3);
 
-insert into products (name, description, code, grootte,  materiaal, price, soort_id) values ('Poster Graffiti', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.', '492662523-7','  11,7 x 16,5', '  Glanzend Papier', 5.25, 1);
+insert into products (name, description, code, grootte,  materiaal, price, soort_id) values ('Poster Graffiti', 'Een poster van graffiti op een muur in Dusseldorf.', '492662523-7','  11,7 x 16,5', '  Glanzend Papier', 5.25, 1);
 
-insert into products (name, description, code, grootte,  materiaal, price, soort_id) values ('Poster De Verwoeste Stad', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.', '492662523-7','  11,7 x 16,5', '  Textiel', 5.75, 2);
+insert into products (name, description, code, grootte,  materiaal, price, soort_id) values ('Poster De Verwoeste Stad', 'Een poster van een belangrijk beeld van Rotterdam, zadkine.', '492662523-7','  11,7 x 16,5', '  Textiel', 5.75, 2);
 
 
 
