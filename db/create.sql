@@ -12,15 +12,19 @@ CREATE TABLE products (
   materiaal TEXT,
   price NUMERIC(10, 2),
   soort_id INTEGER
-
+ 
 );
 
 
+
+  
 CREATE TABLE soort (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
  name VARCHAR(255),
-  
 );
+
+  
+  
 
 CREATE TABLE levertijd (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -39,7 +43,7 @@ CREATE TABLE levertijd (
 insert into products (name, description, code, grootte, materiaal, price, soort_id) values ('Poster Molen', 'Een zeer mooie poster van een molen. ', '816905633-0', '  8,3 x 11,7', '  Mat Photo Papier', 5, 1);
 
 
-insert into products (name, description, code, grootte,  materiaal, price, soort_id ) values ('Poster Waterval', 'Een poster van een Waterval in een natuur gebied.', '077030122-3','  8,3 x 11,7', '  Mat Photo Papier', 4.50, 2);
+insert into products (name, description, code, grootte,  materiaal, price, soort_id) values ('Poster Waterval', 'Een poster van een Waterval in een natuur gebied.', '077030122-3','  8,3 x 11,7', '  Mat Photo Papier', 4.50, 2);
 
 insert into products (name, description, code, grootte,  materiaal, price, soort_id) values ('Poster Italiaanse Kerk', 'Een poster van een Italiaanse Kerk.', '445924201-X', '  16,5 x 23,4', '  Textiel', 6, 1);
 
@@ -62,3 +66,7 @@ insert into products (name, description, code, grootte,  materiaal, price, soort
 insert into soort (name) values ('natuur poster');
 insert into soort (name) values ('reis poster');
 insert into soort (name) values ('architectuur poster');
+
+  
+
+  
