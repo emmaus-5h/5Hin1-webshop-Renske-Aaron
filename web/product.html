@@ -61,7 +61,9 @@
 
 <li><span class="propert-name">soort:</span><span class="product_soort"></span></li>
 
- <li><span class="propert-name">doelgroep:</span><span class="product_doelgroep"></span></li>             
+ <li><span class="propert-name">doelgroep:</span><span class="product_doelgroep"></span></li>  
+
+ <li><span class="propert-name">levertijd:</span><span class="product_levertijd"></span></li> 
               
 
             <li><span class="propert-name">Code:</span><span class="product_code"></span></li>
@@ -101,6 +103,7 @@
 clone.querySelector(".product_materiaal").textContent = product.materiaal       
 
 clone.querySelector(".product_grootte").textContent = product.grootte                  
+clone.querySelector(".product_levertijd").textContent = product.levertijd 
 
               
                 clone.querySelector(".product_price").textContent = `€ ${product.price.toFixed(2)}`
