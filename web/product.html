@@ -100,13 +100,20 @@
                 clone.querySelector(".product_title").textContent += product.name
                 clone.querySelector(".product_description").textContent = product.description
 
-clone.querySelector(".product_materiaal").textContent = product.materiaal       
 
-clone.querySelector(".product_grootte").textContent = product.grootte                  
-clone.querySelector(".product_levertijd").textContent = product.levertijd 
 
               
                 clone.querySelector(".product_price").textContent = `€ ${product.price.toFixed(2)}`
+              clone.querySelector(".product_grootte").textContent = product.grootte       
+
+clone.querySelector(".product_materiaal").textContent = product.materiaal   
+
+clone.querySelector(".product_soort").textContent = product.soort
+
+clone.querySelector(".product_doelgroep").textContent = product.doelgroep
+              
+clone.querySelector(".product_levertijd").textContent = product.levertijd
+              
                 clone.querySelector(".product_code").textContent = product.code
                 clone.querySelector(".product_id").value = product.id
                 clone.querySelector(".product_id").dataset.json = JSON.stringify(product)

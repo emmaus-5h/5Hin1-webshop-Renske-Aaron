@@ -69,14 +69,14 @@ insert into products (name, description, code, grootte,  materiaal, price, soort
 
 
 
-insert into soort (name) values ('natuur poster');
-insert into soort (name) values ('reis poster');
-insert into soort (name) values ('architectuur poster');
+insert into soort (name) values ('Natuur poster');
+insert into soort (name) values ('Reis poster');
+insert into soort (name) values ('Architectuur poster');
 
   
-insert into doelgroep (name) values ('jeugd');
-insert into doelgroep (name) values ('volwassene');
-insert into doelgroep (name) values ('senioren');
+insert into doelgroep (name) values ('Jeugd');
+insert into doelgroep (name) values ('Volwassene');
+insert into doelgroep (name) values ('Senioren');
 
 
 
