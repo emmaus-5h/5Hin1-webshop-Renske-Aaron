@@ -13,7 +13,8 @@ CREATE TABLE products (
   price NUMERIC(10, 2),
   soort_id INTEGER,
   doelgroep_id INTEGER,
-  levertijd_id INTEGER
+  levertijd_id INTEGER,
+  frame_id INTEGER
 );
 
 
@@ -33,10 +34,12 @@ CREATE TABLE soort (
 CREATE TABLE levertijd (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
  Levertijd VARCHAR(255)
-
-  
-
 );
+
+CREATE TABLE frame (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+ name VARCHAR(255)
+);  
 --
 -- populate with data
 --
@@ -79,7 +82,13 @@ insert into doelgroep (name) values ('Volwassenen');
 insert into doelgroep (name) values ('Senioren');
 
 
-
 insert into levertijd (Levertijd) values ('Op voorraad');
 insert into levertijd (Levertijd) values ('Op aanvraag');
 insert into levertijd (Levertijd) values ('1 dag');
+
+
+insert into frame (name) values ('Geen frame');
+insert into frame (name) values ('Normaal frame');
+insert into frame (name) values ('Luxe frame');
+
+  
