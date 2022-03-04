@@ -78,17 +78,19 @@ function getProductById(request, response) {
   console.log('API ontvangt /api/products/:id', request.query)
   let data = []
   const product_id = parseInt(request.params.id)
-  const sqlOpdracht = db.prepare('SELECT products.id AS id, products.name AS name, products.description AS description, products.code AS code, products.price AS price, products.grootte AS grootte, products.materiaal AS materiaal FROM products  WHERE id = ?')
+  const sqlOpdracht = db.prepare('SELECT products.id AS id, products.name AS name, products.description AS description, products.code AS code, products.price AS price, products.grootte AS grootte, products.materiaal AS materiaal FROM products WHERE id = ?')
   data = sqlOpdracht.all(product_id)
   response.status(200).json(data[0])
 }
+
+
 
 /*
 const getRelatedProductsById = (request, response) => {
   const id = parseInt(request.params.id)
   // TODO: change query to return related products
   // it now return an array with the current products
-  pool.query('SELECT * FROM products WHERE id = $1', [id], (error, results) => {
+  pool.query('SELECT * FROM products WHERE id = 2', [id], (error, results) => {
     if (error) {
       console.log(error)
       response.status(500).json("oops")
