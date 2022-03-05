@@ -78,13 +78,21 @@ function getProductById(request, response) {
   console.log('API ontvangt /api/products/:id', request.query)
   let data = []
   const product_id = parseInt(request.params.id)
-  const sqlOpdracht = db.prepare('SELECT products.id AS id, products.name AS name, products.description AS description, products.code AS code, products.price AS price, products.grootte AS grootte, products.materiaal AS materiaal FROM products WHERE id = ?')
+  const sqlOpdracht = db.prepare('SELECT products.id AS id, products.name AS name, products.description AS description, products.code AS code, products.price AS price, products.grootte AS grootte, products.materiaal AS materiaal, products.soort_id AS soort, products.levertijd_id AS levertijd, products.doelgroep_id AS doelgroep, products.frame_id AS frame FROM products WHERE id = ?')
   data = sqlOpdracht.all(product_id)
   response.status(200).json(data[0])
 }
 
-
-
+/*
+function getSoortById(request, response) {
+  console.log('API ontvangt /api/soort/:id', request.query)
+  let data = []
+  const sqlOpdracht = db.prepare('SELECT soort.name AS soort, doelgroep.name AS doelgroep, levertijd.Levertijd AS levertijd, frame.name AS frame FROM products JOIN soort ON products.soort_id = soort.id JOIN doelgroep ON products.doelgroep_id = doelgroep.id JOIN levertijd ON products.levertijd_id = levertijd.id JOIN frame ON products.frame_id = frame.idsoort.name AS soort')
+  data = sqlOpdracht.all(product_id)
+  response.status(200).json(data[0])
+  console.log('API verstuurt /api/soort/')
+}
+*/
 /*
 const getRelatedProductsById = (request, response) => {
   const id = parseInt(request.params.id)
