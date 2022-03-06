@@ -3,6 +3,7 @@
 footer {
   margin: 20px;
   font-size: 12px;
+  
 } 
 
 .toast {
@@ -31,10 +32,12 @@ footer {
 
 .card-header {
   height: 4em;
+  font-family: serif;
 }
 
 .card-text {
-  min-height:10em
+  min-height:10em;
+  font-family: serif;
 }
 
 /* index page */
@@ -49,8 +52,8 @@ footer {
 .product img {
   margin: auto;
   margin-top: 20px;
-  
 }
+
 
 .product > .card-header {
   height:3m
@@ -78,6 +81,6 @@ footer {
 }
 
 body {
-  background-color: rgb(199, 216, 255)
+  background-color: #ceddff
   }
 
