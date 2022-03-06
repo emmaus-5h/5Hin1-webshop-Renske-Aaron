@@ -40,6 +40,7 @@ CREATE TABLE frame (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
  name VARCHAR(255)
 );  
+  
 --
 -- populate with data
 --

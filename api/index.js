@@ -21,6 +21,7 @@ app.use(
   })
 )
 
+
 // defineer startpunt voor statische bestanden
 app.use(express.static('../web'))
 

@@ -38,6 +38,7 @@ Stap x: Webshop verder verbeteren
 Voor en goed cijfer is het belangrijk dat je laat zien dat je uitstekend begrepen hebt hoe je een webshop moet opzetten.
 
 
+
 # Basis uitleg hoe de webshop werkt
 The basic idea is that a webpage of the shop is loaded by the browser and information on the articles in the shop are added to that depending on what the user selects.
 
