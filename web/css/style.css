@@ -25,7 +25,8 @@ footer {
 .card {
   width:250px; 
   height: 875px; 
-  margin-bottom: 20px
+  margin-bottom: 20px;
+  border-radius: 30px;
 }
 
 .card-header {
@@ -42,11 +43,13 @@ footer {
   height: inherit; 
   margin-bottom: 20px;
   margin-top: 20px;
+  
 }
 
 .product img {
   margin: auto;
   margin-top: 20px;
+  
 }
 
 .product > .card-header {
